@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db393e04-6319-4c5e-a69c-f0b67aa51e4c" name="Default Changelist" comment="" />
+    <list default="true" id="db393e04-6319-4c5e-a69c-f0b67aa51e4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/feed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/sitemaps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post/latest_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templatetags/blog_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/88f2fa9a-a49b-43e7-948d-b25f4068c032.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/88f2fa9a-a49b-43e7-948d-b25f4068c032.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,12 +55,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hjeqQSotfTwoU5kBww5WLGRxxv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -59,13 +78,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/blog/templates/blog/post" />
-      <recent name="$PROJECT_DIR$/blog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/blog" />
       <recent name="$PROJECT_DIR$/blog/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog" />
+      <recent name="$PROJECT_DIR$/blog/templates/blog/post" />
     </key>
   </component>
   <component name="RunManager">
@@ -106,7 +125,8 @@
       <updated>1600529119054</updated>
       <workItem from="1600529149354" duration="5610000" />
       <workItem from="1600645277517" duration="2155000" />
-      <workItem from="1600727652366" duration="1486000" />
+      <workItem from="1600727652366" duration="1700000" />
+      <workItem from="1600815810800" duration="3104000" />
     </task>
     <servers />
   </component>
@@ -114,29 +134,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1600729263307">
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom" timestamp="1600820807939">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600729263307" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600820807939" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1600646345599" />
-    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1600729263305">
+    <state width="1398" height="212" key="GridCell.Tab.0.center" timestamp="1600820807936">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600729263305" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600820807936" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1600646345598" />
-    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1600729263305">
+    <state width="1398" height="212" key="GridCell.Tab.0.left" timestamp="1600820807935">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600729263305" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600820807935" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1600646345597" />
-    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1600729263306">
+    <state width="1398" height="212" key="GridCell.Tab.0.right" timestamp="1600820807937">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600729263306" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600820807937" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1600646345598" />
-    <state x="413" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1600645277793">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="413" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1600815810871">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="413" y="264" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1600815810871" />
     <state x="413" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1600645277793" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600819824109">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600819824109" />
   </component>
 </project>
